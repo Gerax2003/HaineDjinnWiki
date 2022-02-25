@@ -1,4 +1,3 @@
-## Summary
----
+## Summary  
 [Libraries](Libraries)  
 [Coding Norm](Norm)
