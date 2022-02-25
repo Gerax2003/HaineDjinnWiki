@@ -79,6 +79,4 @@ namespace Maths
 
 ## Git
 
-> Une branche par features. Avec une branche Dev. (git flow)
-
-## Type de jeu
+> Une branche par feature. Avec une branche Dev. (git flow)
