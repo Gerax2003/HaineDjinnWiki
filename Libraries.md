@@ -6,8 +6,9 @@ Editor: ImGui, FLTK(Fast Light Tool Kit), WxWidgets
 <ul>
    <li>ImGUI: Connaissance élevé de la librairie</li>
    <li>FLTK: Librairie multi-plateforme et simple d'usage</li>
-   <li>WxWidget: Donne aux applications une apparence véritablement native car elle utilise l'API native de la plate-forme plutôt que d'émuler l'interface graphique. Elle est complète, open-source et mature. </li>  
-</ul>  
+   <li>WxWidget: Donne aux applications une apparence véritablement native car elle utilise l'API native de la plate-forme plutôt que d'émuler l'interface graphique. Elle est complète, open-source et mature. </li></ul>  
+
+
 > On a choisi de prendre IMGUI, car cette une librairie sur laquelle on a eu l'habitude de travailler. Elle est assez complete et plus optimisé que les autres librairies cités.  
 
 Sound: irrKlang, Superpowered Audio SDK, FMOD  
