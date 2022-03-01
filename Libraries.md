@@ -12,6 +12,12 @@ Editor: ImGui, FLTK(Fast Light Tool Kit), WxWidgets
 > On a choisi de prendre IMGUI, car cette une librairie sur laquelle on a eu l'habitude de travailler. Elle est assez complete et plus optimisé que les autres librairies cités.  
 
 Sound: irrKlang, Superpowered Audio SDK, FMOD  
+<ul>
+   <li>irrKlang: La librairie s'adapte à un espace 2D comme 3D, elle sait lire de nombreux fichier audio (MP4, wave,...), elle est Cross-Plateforme, elle possède toutes les fonctionnalités connues des bibliothèques audio de bas niveau ainsi que de nombreuses fonctionnalités utiles comme un moteur de streaming sophistiqué, une lecture audio extensible, ...</li>
+   <li>Superpowered: Est surtout utilisé pour les téléphones</li>
+   <li>FMOD: Est une librairie pour faire nos propre sons, ont peux mdifier de plein de facon. FMOD Core a subi des optimisations majeures dans le mixage, le rééchantillonnage, le décodage et le traitement des effets.</li>  
+
+
 > On a choisi la librairie ...
   
 System interface: GLFW, EPOXY, bgfx  
