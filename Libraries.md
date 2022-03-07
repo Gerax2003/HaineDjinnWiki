@@ -4,7 +4,7 @@
 
 System interface: OpenGL, Vulkan, DirectX 12  
 <ul>
-   <li><p>**Vulkan** Vulkan est une API tres flexible, mais une connaissance accrue est nécessaire afin de l'utiliser correctement. Dans ce pojet, nous avons jugé qu'il serait un désavantage de temps et d'optimisation.</p></li>
+   <li><p>**Vulkan:** Vulkan est une API tres flexible, mais une connaissance accrue est nécessaire afin de l'utiliser correctement. Dans ce pojet, nous avons jugé qu'il serait un désavantage de temps et d'optimisation.</p></li>
    <li>DirectX 12: C'est un point partagé notamment avec Directx 12.</li>
    <li>OpenGL(4.5): Dans ce projet, nous utiliserons l'API de OpenGL. Nous avons de très bonne connaissance sur celle-ci et de plus, il ce trouve qu'elle est énormément documenté sur Internet. Elle est plus que suffisante pour pouvoir faire un moteur.</li></ul>  
 
