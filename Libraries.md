@@ -2,6 +2,12 @@
 
 [Homepage](Home)  
 
+System interface: OpenGL, Vulkan, DirectX 12  
+<ul>
+   <li>Vulkan: Vulkan est une API tres flexible, mais une connaissance accrue est nécessaire afin de l'utiliser correctement. Dans ce pojet, nous avons jugé qu'il serait un désavantage de temps et d'optimisation.</li>
+   <li>DirectX 12: C'est un point partagé notamment avec Directx 12.</li>
+   <li>OpenGL(4.5): Dans ce projet, nous utiliserons l'API de OpenGL. Nous avons de très bonne connaissance sur celle-ci et de plus, il ce trouve qu'elle est énormément documenté sur Internet. Elle est plus que suffisante pour pouvoir faire un moteur.</li></ul>  
+
 Editor: ImGui, FLTK(Fast Light Tool Kit), WxWidgets   
 <ul>
    <li>ImGUI: Connaissance élevé de la librairie</li>
@@ -20,11 +26,11 @@ Sound: irrKlang, Superpowered Audio SDK, FMOD
 
 > On a choisi la librairie ...
   
-System interface: GLFW, EPOXY, bgfx  
+System interface: GLFW, SDL  
 <ul>
+   <li>SDL: Est une bibliothèque permettant de gérer des pointeurs de fonction OpenGL.</li></ul>
    <li>GLFW: Grande connaissance de la librairie</li>
-   <li>Epoxy: Est une bibliothèque permettant de gérer des pointeurs de fonction OpenGL.</li>
-   <li>bgfx: Bibliothèque de rendu de style multiplateforme, indépendante de l'API graphique, sous licence open source. Il est possible de l'utiliser avec SDL, GLFW et des bibliothèques de fenêtrage multiplateformes similaires.</li></ul>
+
 
 
 > On a choisi GLFW, car c'est une librairie qu'on a énormément utilisé, c'est un avantage de rapidité.  
