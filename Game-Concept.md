@@ -1,3 +1,5 @@
+[Homepage](Home)  
+
 ## Gameplay  
 Le jeu est un Hack'n'Slash. L'objectif est d'accomplir des missions et faire face à différents types de menace(spawner d'ennemis, Boss, pièges, ...). L'équipement du joueur peut être amélioré en combattant des ennemis, en lootant des objets dans des coffres, ...  
 
