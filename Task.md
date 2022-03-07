@@ -1,13 +1,13 @@
 ### Task to do  
-- [ ] **Protoype**
+- [ ] Protoype
    - [ ] Unity
    - [ ] 3C
    - [ ] Interaction PNJ, ...
    - [ ] minimal gameplay
 
 
-- [ ] **Rendering/Engine**
-   - [ ] *OpenGL*
+- [ ] Rendering/Engine
+   - [ ] OpenGL
       - [ ] Graphics Effects
          - [ ] Shadow
          - [ ] PBR
@@ -18,10 +18,10 @@
    - [ ] Resources Manager
    - [ ] Scene Parser
 
-- [ ] **Editor**
+- [ ] Editor
    - [ ] Drag & Drop
    - [ ] Serialisation
-   - [ ] *Interface Utilisateur*
+   - [ ] Interface Utilisateur
       - [ ] Renderer in IMGUI window
       - [ ] List of the GameObject present in the scene
       - [ ] Dialogue Maker
