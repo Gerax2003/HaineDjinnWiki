@@ -14,3 +14,11 @@
    - [ ] Mathematics
    - [ ] Resources Manager
    - [ ] Scene Parser
+- [ ] **Editor**
+   - [ ] Drag & Drop
+   - [ ] Serialisation
+   - [ ] Interface Utilisateur
+      - [ ] Renderer in IMGUI window
+      - [ ] List of the GameObject present in the scene
+      - [ ] Dialogue Maker
+      - [ ] Editeur d'objets  
