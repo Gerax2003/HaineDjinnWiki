@@ -1,9 +1,9 @@
-- [ ] **Prototype**  
-    - [ ] Unity  
-    - [ ] 3C  
-    - [ ] Interaction PNJ, ...  
+- [ ] **Prototype**
+    - [ ] Unity
+    - [ ] 3C
+    - [ ] Interaction PNJ, ...
     - [ ] minimal gameplay  
-
+<br>
 
 - [ ] **Rendering/Engine**
    - [ ] OpenGL
