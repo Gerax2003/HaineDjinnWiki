@@ -1,11 +1,11 @@
 ### Task to do  
 
 
-- [ ] **Protoype**
-    - [ ] Unity
-    - [ ] 3C
-    - [ ] Interaction PNJ, ...
-    - [ ] minimal gameplay  
+    - [ ] **Prototype**
+        - [ ] Unity
+        - [ ] 3C
+        - [ ] Interaction PNJ, ...
+        - [ ] minimal gameplay  
 
 
 - [ ] **Rendering/Engine**
