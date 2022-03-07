@@ -6,13 +6,13 @@ System interface: OpenGL, Vulkan, DirectX 12
 <ul>
    <li>Vulkan: Vulkan est une API tres flexible, mais une connaissance accrue est nécessaire afin de l'utiliser correctement. Dans ce pojet, nous avons jugé qu'il serait un désavantage de temps et d'optimisation.</li>
    <li>DirectX 12: C'est un point partagé notamment avec Directx 12.</li>
-   <li><p> **OpenGL(4.5)** : Dans ce projet, nous utiliserons l'API de OpenGL. Nous avons de très bonne connaissance sur celle-ci et de plus, il ce trouve qu'elle est énormément documenté sur Internet. Elle est plus que suffisante pour pouvoir faire un moteur.</p></li></ul>  
+   <li><p>OpenGL(4.5): Dans ce projet, nous utiliserons l'API de OpenGL. Nous avons de très bonne connaissance sur celle-ci et de plus, il ce trouve qu'elle est énormément documenté sur Internet. Elle est plus que suffisante pour pouvoir faire un moteur.</p></li></ul>  
 
 Editor: ImGui, FLTK(Fast Light Tool Kit), WxWidgets   
 <ul>
    <li>FLTK: Librairie multi-plateforme et simple d'usage</li>
    <li>WxWidget: Donne aux applications une apparence véritablement native car elle utilise l'API native de la plate-forme plutôt que d'émuler l'interface graphique. Elle est complète et open-source. </li>
-   <li>__ImGUI__: Connaissance élevé de la librairie</li></ul>  
+   <li>ImGUI: Connaissance élevé de la librairie</li></ul>  
 
 
 > On a choisi de prendre IMGUI, car cette une librairie sur laquelle on a eu l'habitude de travailler. Elle est assez complete et plus optimisé que les autres librairies cités.  
@@ -29,7 +29,7 @@ Sound: irrKlang, Superpowered Audio SDK, FMOD
 System interface: GLFW, SDL  
 <ul>
    <li>SDL: Est une bibliothèque permettant de gérer des pointeurs de fonction OpenGL.</li></ul>
-   <li>__GLFW__: C'est une API qu'on a utilisé à maintes reprises, et qui comme OpenGL est tres bien documenté, elle est simple à implémenter.</li>
+   <li>GLFW: C'est une API qu'on a utilisé à maintes reprises, et qui comme OpenGL est tres bien documenté, elle est simple à implémenter.</li>
 
 3DModel Loading: ASSIMP,  
-> Pour la partie 3D et chargement de model, on prendra **ASSIMP** car elle prend en compte plusieurs type d'objet 3D(FBX, OBJ, 3DMAX, ...), on peut notamment implémenter des animations ce qui sera très pratique.  
+> Pour la partie 3D et chargement de model, on prendra ASSIMP car elle prend en compte plusieurs type d'objet 3D(FBX, OBJ, 3DMAX, ...), on peut notamment implémenter des animations ce qui sera très pratique.  
