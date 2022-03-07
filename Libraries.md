@@ -20,8 +20,8 @@ Sound: irrKlang, Superpowered Audio SDK, FMOD
   
 System interface: GLFW, SDL  
    - SDL: Est une bibliothèque permettant de gérer des pointeurs de fonction OpenGL.
-   - GLFW: C'est une API qu'on a utilisé à maintes reprises, et qui comme OpenGL est tres bien documenté, elle est simple à implémenter.
+   - GLFW: C'est une API qu'on a utilisé à maintes reprises, et qui comme OpenGL est très bien documenté, elle est simple à implémenter.  
 
-3DModel Loading: ASSIMP, TinyObj
-    - TinyObj: est malheureusement trop limité pour notre moteur. Elle prend en compte que les .obj qui est un fichier rarement utilisé dans le jeu vidéo.
-    - **ASSIMP**: Pour la partie 3D et chargement de model, on prendra **ASSIMP** car elle prend en compte plusieurs type d'objet 3D(FBX, OBJ, 3DMAX, ...), on peut notamment implémenter des animations ce qui sera très pratique pour la suite.  
+3DModel Loading: ASSIMP, TinyObj    
+   - TinyObj: est malheureusement trop limité pour notre moteur. Elle prend en compte que les .obj qui est un fichier rarement utilisé dans le jeu vidéo.
+   - **ASSIMP**: Pour la partie 3D et chargement de model, on prendra **ASSIMP** car elle prend en compte plusieurs type d'objet 3D(FBX, OBJ, 3DMAX, ...), on peut notamment implémenter des animations ce qui sera très pratique pour la suite.
