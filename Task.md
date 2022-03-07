@@ -3,7 +3,7 @@
     - [ ] Unity
     - [ ] 3C
     - [ ] Interaction PNJ, ...
-    - [ ] minimal gameplay
+    - [ ] minimal gameplay  
 
 
 - [ ] Rendering/Engine
@@ -16,7 +16,7 @@
    - [ ] Assets 3D
    - [ ] Mathematics
    - [ ] Resources Manager
-   - [ ] Scene Parser
+   - [ ] Scene Parser  
 
 - [ ] Editor
    - [ ] Drag & Drop
@@ -25,4 +25,4 @@
       - [ ] Renderer in IMGUI window
       - [ ] List of the GameObject present in the scene
       - [ ] Dialogue Maker
-      - [ ] Editeur d'objets
+      - [ ] Editeur d'objets  
