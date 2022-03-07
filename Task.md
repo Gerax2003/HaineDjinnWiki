@@ -2,4 +2,15 @@
     - [ ] Unity
     - [ ] 3C
     - [ ] Interaction PNJ, ...
-    - [ ] minimal gameplay
+    - [ ] Minimal gameplay
+- [ ] **Rendering/Engine**
+   - [ ] OpenGL
+      - [ ] Graphics Effects
+         - [ ] Shadow
+         - [ ] PBR
+         - [ ] Instanciation
+         - [ ] PHONG
+   - [ ] Assets 3D
+   - [ ] Mathematics
+   - [ ] Resources Manager
+   - [ ] Scene Parser
