@@ -2,8 +2,7 @@
     - [ ] Unity
     - [ ] 3C
     - [ ] Interaction PNJ, ...
-    - [ ] minimal gameplay<br>
-
+    - [ ] minimal gameplay
 - [ ] **Rendering/Engine**
    - [ ] OpenGL
       - [ ] Graphics Effects
