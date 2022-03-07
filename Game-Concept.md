@@ -5,7 +5,7 @@
 ##Effets Visuel   
 ##Score  
 ##Audio  
-##Inspiration  
+## Inspiration  
 - Diablo 3 (Blizzard Entertainement)  
 ![](https://i.gifer.com/TOTE.gif)
 - TorchLight 3 (Echtra Games)  
