@@ -2,18 +2,18 @@
 Le jeu est un Hack'n'Slash. L'objectif est d'accomplir des missions et faire face à différents types de menace(spawner d'ennemis, Boss, pièges, ...). L'équipement du joueur peut être amélioré en combattant des ennemis, en lootant des objets dans des coffres, ...  
 
 ## Ennemis  
-<p>Les ennemis peuvent apparaitre à des points spécifiques de la map, à l'aide d'un spawner. Leurs comportements est assez basique, c'est à dire que si le joueur ce trouve dans la zone de détection d'un ennemi, celui-ci se rapprochera du joueur jusqu'à lui infliger des dégâts. Les ennemis pourront attaqué en même temps, c'est au joueurs d'esquiver les grands groupes ou de faire des attaques à distances pour les séparer. Il y aura des classes d'ennemis avec des vies, des points d'attaques et du temps d'attaque différents.</p>  
+<p>Les ennemis peuvent apparaitre à des points spécifiques de la map, à l'aide d'un spawner. Leurs comportements est assez basique, c'est à dire que si le joueur se trouve dans la zone de détection d'un ennemi, celui-ci se rapprochera du joueur jusqu'à lui infliger des dégâts. Les ennemis pourront attaqués en même temps, c'est au joueur d'esquiver les grands groupes ou de faire des attaques à distances pour les séparer. Il y aura des classes d'ennemis avec des vies, des points d'attaques et du temps d'attaque différentes.</p>  
 
 <p>Il a été pensé que les ennemis seront plus difficiles a battre, si le joueur est bien avancé dans l'histoire. (niveau de difficulté croissant)</p>  
 
-<p>Lorsqu'un ennemi mourra une animation de mort sera joué ou le corps de l'ennemi sera mis en ragdoll.</p>  
+<p>Lorsqu'un ennemi mourra une animation de mort sera joué (ou le corps de l'ennemi sera mis en ragdoll).</p>  
 
 ## Joueur  
-<p>Le joueur possède une barre de vie (et une barre de stamina/mana). Si le joueur perd toute sa barre de vie, alors c'est perdu et le joueurs recommencera au dernier point de contrôle passé. Sa mort sera une animation. Un écran Game Over apparaitra.</p>  
+<p>Le joueur possède une barre de vie (et une barre de stamina/mana). Si le joueur perd toute sa barre de vie, alors c'est perdu et le joueur recommencera au dernier point de contrôle passé. Sa mort sera une animation. Un écran Game Over apparaitra.</p>  
 
-<p>Le joueur peut se déplacer dans toutes les directions et ce tourner dans tous les sens. Il ne pourra pas sauter, car il nous parait pas essentiel que le joueur puisse sauter.</p>  
+<p>Le joueur peut se déplacer dans toutes les directions et ce tourner dans tous les sens. Il ne pourra pas sauter, car ils nous ai pas paru essentiels que le joueur puisse sauter.</p>  
 
-<p>Différentes compétences pourront être débloqué au fur et à mesure du jeu (nouveau mouvement, nouvelle attaque, ...). Le joueur ne peut faire qu'une action à la fois, c'est à dire que si le joueur esquive il ne pourra pas attaquer en meme temps, il faudra attendre que le joueur est finit son animation.</p>  
+<p>Différentes compétences pourront être débloquées au fur et à mesure du jeu (nouveau mouvement, nouvelle attaque, ...). Le joueur ne peut faire qu'une action à la fois, c'est à dire que si le joueur esquive il ne pourra pas attaquer en même temps, il faudra attendre que le joueur est finit son animation.</p>  
 
 <p>Le joueur pourra parler à différents personnage dans le jeu, qui lui donneront une quete ou des cadeaux. Il existera différents types de marchands (forgeron, maitre de magie, trappeur,...) qui pourront lui fournir un meilleur équipement.</p>  
 
