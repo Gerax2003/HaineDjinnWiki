@@ -7,5 +7,6 @@
 ##Audio  
 ##Inspiration  
 - Diablo 3 (Blizzard Entertainement)  
-![Text alternatif][img-monsite]: https://i.gifer.com/TOTE.gif "Diablo3 Gameplay"
-- TorchLight 3 (Echtra Games)
+![](https://i.gifer.com/TOTE.gif)
+- TorchLight 3 (Echtra Games)  
+![](https://thumbs.gfycat.com/SecondhandScaryKronosaurus-max-1mb.gif)
