@@ -1,12 +1,9 @@
 ### Task to do  
 - [ ] Protoype
-   - [ ] Unity
-   - [ ] 3C
-   - [ ] Interaction PNJ, ...
-   - [ ] minimal gameplay
-
-- [X] Parent 1
-    - [X] Child - 1
+    - [ ] Unity
+    - [ ] 3C
+    - [ ] Interaction PNJ, ...
+    - [ ] minimal gameplay
 
 
 - [ ] Rendering/Engine
