@@ -1,12 +1,14 @@
 ### Task to do  
-- [ ] Protoype
+
+
+- [ ] **Protoype**
     - [ ] Unity
     - [ ] 3C
     - [ ] Interaction PNJ, ...
     - [ ] minimal gameplay  
 
 
-- [ ] Rendering/Engine
+- [ ] **Rendering/Engine**
    - [ ] OpenGL
       - [ ] Graphics Effects
          - [ ] Shadow
@@ -18,7 +20,7 @@
    - [ ] Resources Manager
    - [ ] Scene Parser  
 
-- [ ] Editor
+- [ ] **Editor**
    - [ ] Drag & Drop
    - [ ] Serialisation
    - [ ] Interface Utilisateur
