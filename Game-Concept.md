@@ -1,8 +1,6 @@
 ## Gameplay  
 Le jeu est un Hack'n'Slash. L'objectif est d'accomplir des missions et faire face à différents types de menace(spawner d'ennemis, Boss, pièges, ...). L'équipement du joueur peut être amélioré en combattant des ennemis, en lootant des objets dans des coffres, ...  
 
-## Scene  
-
 ## Ennemis  
 <p>Les ennemis peuvent apparaitre à des points spécifiques de la map, à l'aide d'un spawner. Leurs comportements est assez basique, c'est à dire que si le joueur ce trouve dans la zone de détection d'un ennemi, celui-ci se rapprochera du joueur jusqu'à lui infliger des dégâts. Les ennemis pourront attaqué en même temps, c'est au joueurs d'esquiver les grands groupes ou de faire des attaques à distances pour les séparer. Il y aura des classes d'ennemis avec des vies, des points d'attaques et du temps d'attaque différents.</p>  
 
@@ -30,8 +28,8 @@ Le jeu est un Hack'n'Slash. L'objectif est d'accomplir des missions et faire fac
 - Les personnages auxquelles vous pouvez parler auront une Ora au dessus de leur tête.  
 - Les attaques en générales auront différents type d'effets visuel. (magie, attaque lourde, ...)  
 
-## Score  
-Lorsque vous tuerez un ennemis celui-ci vous rapportera des points. Les points seront distribué aléatoirement dans un intervalle. Plus l'ennemis est facile a battre plus l'intervalle contiendra des chiffres faibles. Un multiplicateur pourra être mis en place. Celui-ci multipliera le minimum et le maximum de l'intervalle.
+## Score et Point de Compétences  
+Lorsque vous tuerez un ennemis celui-ci vous rapportera des points. Les points seront distribué aléatoirement dans un intervalle. Plus l'ennemis est facile a battre plus l'intervalle contiendra des chiffres faibles. Un multiplicateur pourra être mis en place. Celui-ci multipliera le minimum et le maximum de l'intervalle. Ces points serviront pour améliorer votre équipement et à monter votre arbre de compétence.
 
 ## Audio  
 L'audio peut être important dans ce type de jeu, car il offre plus de réalisme et accroche le joueur au jeu. Différents type de son pourront être joué.  
