@@ -1,5 +1,5 @@
 ### Task to do
-*- [ ] Rendering/Engine
+**- [ ] Rendering/Engine**
    - [ ] OpenGL
    - [ ] Model3D
    - [ ] Mathematics
