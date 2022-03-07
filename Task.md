@@ -3,7 +3,7 @@
     - [ ] 3C
     - [ ] Interaction PNJ, ...
     - [ ] minimal gameplay  
-<br>
+
 - [ ] **Rendering/Engine**
    - [ ] OpenGL
       - [ ] Graphics Effects
@@ -15,7 +15,7 @@
    - [ ] Mathematics
    - [ ] Resources Manager
    - [ ] Scene Parser  
-<br>
+
 - [ ] **Editor**
    - [ ] Drag & Drop
    - [ ] Serialisation
