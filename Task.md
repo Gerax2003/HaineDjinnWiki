@@ -5,6 +5,9 @@
    - [ ] Interaction PNJ, ...
    - [ ] minimal gameplay
 
+- [X] Parent 1
+    - [X] Child - 1
+
 
 - [ ] Rendering/Engine
    - [ ] OpenGL
