@@ -1,4 +1,4 @@
-[Homepage](Home)  
+[Accueil](Home)  
 
 - [ ] **Prototype**
     - [x] Unity
@@ -7,20 +7,20 @@
     - [ ] Minimal gameplay
 - [ ] **Rendering/Engine**
    - [ ] OpenGL
-      - [ ] Graphics Effects
+      - [ ] Effets Graphiques
          - [ ] Shadow
          - [ ] PBR
          - [ ] Instanciation
          - [ ] PHONG
    - [ ] Assets 3D
-   - [ ] Mathematics
+   - [ ] Mathématiques
    - [ ] Resources Manager
    - [ ] Scene Parser
 - [ ] **Editor**
    - [ ] Drag & Drop
-   - [ ] Serialisation
+   - [ ] Sérialisation
    - [ ] Interface Utilisateur
-      - [ ] Renderer in IMGUI window
-      - [ ] List of the GameObject present in the scene
-      - [ ] Dialogue Maker
+      - [ ] Rendus dans des onglets IMGUI 
+      - [ ] Hiérarchie de scène
+      - [ ] Dialogue Editor
       - [ ] Editeur d'objets  
