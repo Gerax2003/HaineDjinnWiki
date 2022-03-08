@@ -1,8 +1,8 @@
 [Homepage](Home)  
 
 - [ ] **Prototype**
-    - [ ] Unity
-    - [ ] 3C
+    - [x] Unity
+    - [x] 3C
     - [ ] Interaction PNJ, ...
     - [ ] Minimal gameplay
 - [ ] **Rendering/Engine**
