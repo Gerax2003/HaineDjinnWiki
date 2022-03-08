@@ -1,6 +1,6 @@
-[Homepage](Home)  
+[Accueil](Home)  
 
-## Class Type
+## Classes
 
 ```c++
 class MyClass
@@ -17,7 +17,7 @@ public:
 };
 ```
 
-## Struct Type
+## Structures
 
 ```c++
 struct MyStruct
@@ -33,7 +33,7 @@ struct MyStruct
 };
 ```
 
-## Enum Type
+## Enums
 ```c++
 enum Jours {
     DIMANCHE, LUNDI, MARDI, MERCREDI, JEUDI, CHIMPANZE, VENDREDI, SAMEDI
