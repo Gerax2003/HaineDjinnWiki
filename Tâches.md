@@ -17,10 +17,10 @@
    - [ ] Resources Manager
    - [ ] Scene Parser
 - [ ] **Editor**
-   - [ ] Drag & Drop
-   - [ ] Sérialisation
+   - [ ] Drag & Drop | 1/2h
+   - [ ] Sérialisation | 8h
    - [ ] Interface Utilisateur
-      - [ ] Rendus dans des onglets IMGUI 
-      - [ ] Hiérarchie de scène
-      - [ ] Dialogue Editor
-      - [ ] Editeur d'objets  
+      - [ ] Rendus dans des onglets IMGUI | 1h
+      - [ ] Hiérarchie de scène | 3h
+      - [ ] Dialogue Editor | 4h
+      - [ ] Editeur d'objets | 8h 
