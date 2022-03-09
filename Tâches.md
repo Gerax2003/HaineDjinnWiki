@@ -8,19 +8,20 @@
 - [ ] **Rendering/Engine**
    - [ ] OpenGL
       - [ ] Effets Graphiques
-         - [ ] Shadow
-         - [ ] PBR
-         - [ ] Instanciation
-         - [x] PHONG
-   - [ ] Assets 3D
+         - [ ] Shadow | 4h
+         - [ ] PBR | 12h?
+         - [ ] Instanciation | 3h
+         - [x] PHONG | 1/2h
+   - [ ] Assets 3D | 3h?
    - [ ] Mathématiques
-   - [ ] Resources Manager
-   - [ ] Scene Parser
+   - [ ] Resources Manager | 8h
+   - [ ] Scene Parser | 4h
+   - [ ] Input System | 3h
 - [ ] **Editor**
    - [ ] Drag & Drop | 1/2h
-   - [ ] Sérialisation | 8h
+   - [ ] Sérialisation | 8h?
    - [ ] Interface Utilisateur
       - [ ] Rendus dans des onglets IMGUI | 1h
-      - [ ] Hiérarchie de scène | 3h
+      - [ ] Hiérarchie de scène | 3h?
       - [ ] Dialogue Editor | 4h
-      - [ ] Editeur d'objets | 8h 
+      - [ ] Editeur d'objets | 8h? 
