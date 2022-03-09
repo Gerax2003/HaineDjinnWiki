@@ -11,7 +11,7 @@
          - [ ] Shadow
          - [ ] PBR
          - [ ] Instanciation
-         - [ ] PHONG
+         - [x] PHONG
    - [ ] Assets 3D
    - [ ] Mathématiques
    - [ ] Resources Manager
