@@ -12,7 +12,7 @@ L'Input System (`Game/InputSystem.h`) permet d'utiliser les fonctions d'inputs c
 - [`bool GetInput`](#Input)
 - [`bool GetInputDown`](#InputDown)
 ---
-### <h2 id="SetWindow">SetWindow</h2>
+### <h3 id="SetWindow">SetWindow</h3>
 ```c++ 
 void SetWindow(GLFWwindow* inWindow);
 ```  
