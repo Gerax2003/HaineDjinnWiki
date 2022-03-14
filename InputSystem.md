@@ -6,11 +6,11 @@ L'Input System (`Game/InputSystem.h`) permet d'utiliser les fonctions d'inputs c
 
 ## Fonctions
 
-- [`void SetWindow`](#SetWindow)
-- [`void LoadInputs / void SaveInputs`](#LoadSave)
-- [`float GetAxis`](#Axis)
-- [`bool GetInput`](#Input)
-- [`bool GetInputDown`](#InputDown)
+- [`void SetWindow`](#SetWindow)  
+- [`void LoadInputs / void SaveInputs`](#LoadSave)  
+- [`float GetAxis`](#Axis)  
+- [`bool GetInput`](#Input)  
+- [`bool GetInputDown`](#InputDown)  
 ---
 ### <h3 id="SetWindow">SetWindow</h3>
 ```c++ 
