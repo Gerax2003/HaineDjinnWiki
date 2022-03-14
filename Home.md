@@ -7,4 +7,4 @@ L'idée de jeu principal est de faire comme un Diablo 3. L'une des spécificité
 [Tâches](Tâches)  
 [Challenges](Challenges)  
 [Librairies](Librairies)  
-[Coding Norm](Norme)
+[Norme du code](Norme)
