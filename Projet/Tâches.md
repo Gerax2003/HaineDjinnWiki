@@ -16,7 +16,7 @@
    - [ ] Mathématiques
    - [ ] Resources Manager | 8h
    - [ ] Scene Parser | 4h
-   - [ ] Input System | 3h
+   - [x] Input System | 5h
 - [ ] **Editor**
    - [ ] Drag & Drop | 1/2h
    - [ ] Sérialisation | 8h?
