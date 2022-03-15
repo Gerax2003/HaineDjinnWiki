@@ -14,7 +14,7 @@ L'Input System (`Game/InputSystem.h`) permet d'utiliser les fonctions d'inputs c
 - `static double deltaX, deltaY`: écart en pixels de la souris entre sa position actuelle et sa position précédente.  
 
 ## Fonctions
-
+Toutes les fontions sont dans le namespace `InputSystem`.  
 **Système**  
 - [`void SetWindow`](#setwindow-1)  
 - [`void UpdateSystem`](#updatesystem-1)  
