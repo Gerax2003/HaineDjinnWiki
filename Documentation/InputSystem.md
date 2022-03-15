@@ -13,6 +13,7 @@ L'Input System (`Game/InputSystem.h`) permet d'utiliser les fonctions d'inputs c
 - [`bool GetInputDown`](#InputDown)  
 - [`bool GetMouseButton`](#MouseButton)  
 - [`bool GetMouseButtonDown`](#MouseDown)  
+- [`Vector2 GetMousePos`](#MousePos)  
 ---
 ### <h3 id="SetWindow">SetWindow</h3>
 ```c++ 
@@ -51,7 +52,30 @@ Renvoie l'état actuel de la touche liée a `input`, `true` si la touche est app
 ```c++
 bool GetInputDown(const std::string& input);
 ```
-
 Renvoie `true` si la touche liée a `input` vient d'être appuyée et `false` si la touche n'est pas appuyée ou si elle était déja appuyée.  
+
+---
+
+### <h3 id="MouseButton">GetMouseButton</h3>
+```c++
+bool GetInput(const std::string& input);
+```
+Renvoie l'état actuel du bouton lié a `button`, `true` si le bouton est appuyé et `false` s'il ne l'est pas.  
+
+---
+
+### <h3 id="MouseDown">GetMouseButtonDown</h3>
+```c++
+bool GetMouseButtonDown(unsigned int button);
+```
+Renvoie `true` si le bouton lié a `button` vient d'être appuyé et `false` si le bouton n'est pas appuyé ou s'il était déja appuyé.  
+
+---
+
+### <h3 id="MousePos">GetMousePos</h3>
+```c++
+Vector2 GetMousePos();
+```
+Renvoie la position actuelle du curseur, relative au bord supérieur gauche de la fenêtre.  
 
 ---
