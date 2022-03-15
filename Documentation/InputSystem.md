@@ -4,6 +4,15 @@
 
 L'Input System (`Game/InputSystem.h`) permet d'utiliser les fonctions d'inputs clavier de GLFW depuis n'importe quel endroit du code et d'une façon simplifiée, avec une utilisation inspirée de Unity. 
 
+## Variables
+**`InputSystem::Keyboard`**  
+- `static std::map<std::string, int> keybinds`: stocke les noms et les inputs liés de tous les inputs du clavier.  
+- `static std::map<std::string, std::pair<int, int>> axes`: stocke les noms et les inputs liés de tous les axes du clavier.  
+
+**`InputSystem::Mouse`**  
+- `static int mouseButtons[9]`: stocke les 8 macros définissant les 8 boutons de souris gérés par ce dernier. Permet de compter les boutons de 1 a 8 plutot que de 0 a 7.  
+- `static double deltaX, deltaY`: écart en pixels de la souris entre sa position actuelle et sa position précédente.  
+
 ## Fonctions
 
 **Système**  
@@ -74,9 +83,9 @@ Renvoie `true` si la touche liée a `input` vient d'être appuyée et `false` si
 
 ### <h3 id="MouseButton">GetMouseButton</h3>
 ```c++
-bool GetInput(const std::string& input);
+bool GetMouseButton(const unsigned int button);
 ```
-Renvoie l'état actuel du bouton lié a `button`, `true` si le bouton est appuyé et `false` s'il ne l'est pas.  
+Renvoie l'état actuel du bouton lié a `button`, `true` si le bouton est appuyé et `false` s'il ne l'est pas. `button` doit être entre 1 et 8 inclus.  
 
 ---
 
@@ -84,7 +93,7 @@ Renvoie l'état actuel du bouton lié a `button`, `true` si le bouton est appuy�
 ```c++
 bool GetMouseButtonDown(unsigned int button);
 ```
-Renvoie `true` si le bouton lié a `button` vient d'être appuyé et `false` si le bouton n'est pas appuyé ou s'il était déja appuyé.  
+Renvoie `true` si le bouton lié a `button` vient d'être appuyé et `false` si le bouton n'est pas appuyé ou s'il était déja appuyé. `button` doit être entre 1 et 8 inclus.  
 
 ---
 
