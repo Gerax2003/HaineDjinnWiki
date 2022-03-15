@@ -6,13 +6,13 @@ L'Input System (`Game/InputSystem.h`) permet d'utiliser les fonctions d'inputs c
 
 ## Fonctions
 
-- [`void SetWindow`](#SetWindow)  
-- [`void LoadInputs / void SaveInputs`](#LoadSave)  
-- [`float GetAxis`](#Axis)  
-- [`bool GetInput`](#Input)  
-- [`bool GetInputDown`](#InputDown)  
-- [`bool GetMouseButton`](#MouseButton)  
-- [`bool GetMouseButtonDown`](#MouseDown)  
+- [`void SetWindow`](#setwindow-1)  
+- [`void LoadInputs / void SaveInputs`](#loadinputssaveinputs-1)  
+- [`float GetAxis`](#getaxis-1)  
+- [`bool GetInput`](#getinput-1)  
+- [`bool GetInputDown`](#getinputdown-1)  
+- [`bool GetMouseButton`](#getmousebutton-1)  
+- [`bool GetMouseButtonDown`](#getmousebuttondown-1)  
 - [`Vector2 GetMousePos`](#getmousepos-1)  
 ---
 ### <h3 id="SetWindow">SetWindow</h3>
