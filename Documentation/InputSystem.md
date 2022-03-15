@@ -10,14 +10,17 @@ L'Input System (`Game/InputSystem.h`) permet d'utiliser les fonctions d'inputs c
 - [`void SetWindow`](#setwindow-1)  
 - [`void UpdateSystem`](#updatesystem-1)  
 - [`void LoadInputs / void SaveInputs`](#loadinputssaveinputs-1)  
+
 **Inputs clavier**  
 - [`float GetAxis`](#getaxis-1)  
 - [`bool GetInput`](#getinput-1)  
 - [`bool GetInputDown`](#getinputdown-1)  
+
 **Inputs souris**  
 - [`bool GetMouseButton`](#getmousebutton-1)  
 - [`bool GetMouseButtonDown`](#getmousebuttondown-1)  
 - [`Vector2 GetMousePos`](#getmousepos-1)  
+
 ---
 
 ### <h3 id="SetWindow">SetWindow</h3>
