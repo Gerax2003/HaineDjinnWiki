@@ -8,7 +8,7 @@ L'idée principale du jeu est de faire un Diablo-like. L'une des spécificité d
 [Tâches](Projet/Tâches)  
 [Challenges](Projet/Challenges)  
 [Librairies](Projet/Librairies)  
-[Norme du code](Norme)  
+[Norme du code](Projet/Norme)  
 
 ## Documentation
 [InputSystem](Documentation/InputSystem)
