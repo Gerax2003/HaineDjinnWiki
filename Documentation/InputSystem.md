@@ -13,7 +13,7 @@ L'Input System (`Game/InputSystem.h`) permet d'utiliser les fonctions d'inputs c
 - [`bool GetInputDown`](#InputDown)  
 - [`bool GetMouseButton`](#MouseButton)  
 - [`bool GetMouseButtonDown`](#MouseDown)  
-- [`Vector2 GetMousePos`](#MousePos)  
+- [`Vector2 GetMousePos`](#getmousepos-1)  
 ---
 ### <h3 id="SetWindow">SetWindow</h3>
 ```c++ 
