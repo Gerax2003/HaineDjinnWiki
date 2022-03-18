@@ -11,7 +11,6 @@ L'Input System (`Game/InputSystem.h`) permet d'utiliser les fonctions d'inputs c
 
 **`InputSystem::Mouse`**  
 - `static int mouseButtons[9]`: stocke les 8 macros définissant les 8 boutons de souris gérés par ce dernier. Permet de compter les boutons de 1 a 8 plutot que de 0 a 7.  
-- `static double deltaX, deltaY`: écart en pixels de la souris entre sa position actuelle et sa position précédente.  
 
 ## Fonctions
 Toutes les fontions sont dans le namespace `InputSystem`.  
@@ -29,6 +28,7 @@ Toutes les fontions sont dans le namespace `InputSystem`.
 - [`bool GetMouseButton`](#getmousebutton-1)  
 - [`bool GetMouseButtonDown`](#getmousebuttondown-1)  
 - [`Vector2 GetMousePos`](#getmousepos-1)  
+- [`Vector2 GetMouseDelta`](#getmousedelta-1)  
 
 ---
 
@@ -102,6 +102,14 @@ Renvoie `true` si le bouton lié a `button` vient d'être appuyé et `false` si 
 Vector2 GetMousePos();
 ```
 Renvoie la position actuelle du curseur, relative au bord supérieur gauche de la fenêtre.  
+
+---
+
+### <h3 id="MouseDelta">GetMouseDelta</h3>
+```c++
+Vector2 GetMouseDelta();
+```
+Renvoie l'écart en pixels de la souris entre sa position actuelle et sa position précédente.  
 
 ---
 
