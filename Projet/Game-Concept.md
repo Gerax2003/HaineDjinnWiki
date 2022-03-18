@@ -45,6 +45,6 @@ L'audio peut être important dans ce type de jeu, car il offre plus de réalisme
 
 ## Inspiration  
 - Diablo 3 (Blizzard Entertainement)  
-![](https://imgur.com/a/A4Wvp8h)
+![](https://i.gifer.com/TOTE.gif)
 - TorchLight 3 (Echtra Games)  
 ![](https://thumbs.gfycat.com/SecondhandScaryKronosaurus-max-1mb.gif)
