@@ -24,4 +24,4 @@ System interface: GLFW, SDL
 
 3DModel Loading: ASSIMP, TinyObj    
    - TinyObj: est malheureusement trop limité pour notre moteur. Elle ne prend en compte que les .obj qui sont des fichiers rarement utilisés dans le jeu vidéo.
-   - **ASSIMP**: Pour la partie 3D et chargement de model, on prendra **ASSIMP** car elle prend en compte plusieurs type d'objet 3D(FBX, OBJ, 3DMAX, ...), on peut notamment implémenter des animations ce qui sera très pratique pour la suite.
+   - **ASSIMP**: Pour la partie 3D et chargement de model, on prendra **ASSIMP** car elle prend en compte plusieurs type d'objet 3D(FBX, OBJ, 3DMAX, ...), on peut notamment implémenter des animations ce qui sera très pratique pour la suite.  
