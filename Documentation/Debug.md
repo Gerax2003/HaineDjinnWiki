@@ -41,10 +41,10 @@ Permet d'effectuer une assertion avec un message, contrairement a `assert()` de 
 ---
 
 ## Fonctions
-- [`void Debug::Log`](#log-1)  
-- [`void Debug::Assert`](#assert-1)  
+- [`void Debug::Log`](#debuglog-1)  
+- [`void Debug::Assert`](#debugassert-1)  
 
-### <h3 id="Log">Debug::Log</h3>
+### <h3 id="DebugLog">Debug::Log</h3>
 ```c++ 
 void Log(const std::string& str, const LogSeverity severity, const int line = 0, const std::string time = "", const std::string filePath = "");
 ```  
@@ -52,7 +52,7 @@ Permet d'écrire un log dans la console, `str` est le message du log, `severity`
 
 ---
 
-### <h3 id="Assert">Debug::Assert</h3>
+### <h3 id="DebugAssert">Debug::Assert</h3>
 ```c++ 
 void Assert(bool condition, const std::string& message, const int line = 0, const std::string time = "", const std::string filePath = "");
 ```  
