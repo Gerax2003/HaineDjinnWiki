@@ -16,15 +16,15 @@ enum class LogSeverity
 
 };
 ```  
-`LogSeverity` sert a donner a HD_LOG la gravité du log.  
+`LogSeverity` sert a donner a [`HD_LOG`](#hd_log-1) la gravité du log.  
 
 ## Macros
-- [`HD_LOG`](#hdlog-1)  
-- [`HD_ASSERT`](#hdassert-1)  
+- [`HD_LOG`](#hd_log-1)  
+- [`HD_ASSERT`](#hd_assert-1)  
 
 ---
 
-### <h3 id="HdLog">HD_LOG</h3>
+### <h3 id="Hd_Log">HD_LOG</h3>
 ```c++ 
 #define HD_LOG(logContent, severity) Debug::Log(logContent, severity, __LINE__, __TIME__, __FILE__)
 ```  
@@ -32,7 +32,7 @@ Permet d'écrire un log dans la console, `logContent` est le message du log, `se
 
 ---
 
-### <h3 id="HdAssert">HD_ASSERT</h3>
+### <h3 id="Hd_Assert">HD_ASSERT</h3>
 ```c++ 
 #define HD_ASSERT(condition, message) Debug::Assert(condition, message, __LINE__, __TIME__, __FILE__)
 ```  
