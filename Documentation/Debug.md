@@ -2,7 +2,7 @@
 
 ## Présentation
 
-`Debug.h` est un header contenant des macros . 
+`Debug.h` est un header contenant des macros utiles pour logger des évènements dans un fichier ou dans la console avec plus de détails qu'un log/assert normal. 
 
 ## Enums
 **`LogSeverity`:**
