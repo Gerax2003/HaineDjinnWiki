@@ -13,4 +13,4 @@ L'idée principale du jeu est de faire un Diablo-like. L'une des spécificité d
 ## Documentation
 [InputSystem](Documentation/InputSystem)  
 [Time](Documentation/Time)  
-[Time](Documentation/Debug)  
+[Debug](Documentation/Debug)  
