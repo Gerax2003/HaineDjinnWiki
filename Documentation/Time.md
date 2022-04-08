@@ -47,7 +47,7 @@ La classe `Timer` permet d'effectuer des comptes a rebours ou de chronomètrer d
 - `public: void Restart(float duration = 0.f, bool looping = false)`: Permet de relancer le timer avec de nouvelles valeurs. `duration` représente la durée du timer, `looping` définit si le timer doit se répéter après s'être terminé.  
 
 ## <h2 id="Variables">Variables</h2>
-**`Time`**  
+**`namespace Time`**  
 - `static float timeScale` (Valeur par défaut: `1.f`): Echelle de temps appliquée a `deltaTime`.  
 - `static int targetFramerate` (Valeur par défaut: `60`): Nombre de frames par seconde visées.  
 
