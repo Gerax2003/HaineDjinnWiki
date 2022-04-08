@@ -7,23 +7,24 @@ Le namespace `Time` (`Core/Time.h`) permet de récupérer des informations sur l
 ## Variables
 **`Time`**  
 - `static float timeScale` (Valeur par défaut: `1.f`): Echelle de temps appliquée a `deltaTime`.  
+- `static int targetFramerate` (Valeur par défaut: `60`): Nombre de frames par seconde visées.  
 
 ## Fonctions
 Toutes les fontions sont dans le namespace `Time`.  
 **Système**  
-- [`void UpdateTime`](#updatetime-1)  
+- [`void Update`](#update-1)  
 
 **Getters**  
-- [`float Time`](#time-1)  
-- [`flaot DeltaTime`](#deltatime-1)  
-- [`float UnscaledDeltaTime`](#unscaleddeltatime-1)  
-- [`float FixedDeltaTime`](#fixeddeltatime-1)  
+- [`double Time`](#time-1)  
+- [`double DeltaTime`](#deltatime-1)  
+- [`double UnscaledDeltaTime`](#unscaleddeltatime-1)  
+- [`double FixedDeltaTime`](#fixeddeltatime-1)  
 
 ---
 
-### <h3 id="UpdateTime">UpdateTime</h3>
+### <h3 id="Update">Update</h3>
 ```c++ 
-void UpdateTime();
+void Update();
 ```  
 Permet de mettre a jour certains éléments de `Time`. Ne devrait pas avoir a être appelée car déjà appelée par `App::run`.  
 
@@ -31,15 +32,15 @@ Permet de mettre a jour certains éléments de `Time`. Ne devrait pas avoir a ê
 
 ### <h3 id="Time">Time</h3>
 ```c++ 
-float Time();
+double Time();
 ```  
-Permet d'e charger et sauvegarder dans un fichier nommé `fileName` les différents inputs présents dans l'Input System'obtenir le temps en secondes écoulé depuis le lancement de l'application.  
+Permet d'obtenir la durée d'exécution du programme.  
 
 ---
 
 ### <h3 id="DeltaTime">DeltaTime</h3>
 ```c++
-float DeltaTime();
+double DeltaTime();
 ```
 Permet d'obtenir la durée écoulée entre la frame actuelle et la frame précédente, affectée par `timeScale`.  
 
@@ -47,7 +48,7 @@ Permet d'obtenir la durée écoulée entre la frame actuelle et la frame précé
 
 ### <h3 id="UnscaledDeltaTime">UnscaledDeltaTime</h3>
 ```c++
-float UnscaledDeltaTime();
+double UnscaledDeltaTime();
 ```
 Permet d'obtenir la durée écoulée entre la frame actuelle et la frame précédente, non affectée par `timeScale`.  
 
@@ -55,7 +56,7 @@ Permet d'obtenir la durée écoulée entre la frame actuelle et la frame précé
 
 ### <h3 id="FixedDeltaTime">FixedDeltaTime</h3>
 ```c++
-float DeltaTime();
+double FixedDeltaTime();
 ```
 Permet d'obtenir la durée entre chaque update de la physique et appels a `FixedUpdate`.  
 
