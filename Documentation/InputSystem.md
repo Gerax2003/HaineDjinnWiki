@@ -4,7 +4,13 @@
 
 L'Input System (`Game/InputSystem.h`) permet d'utiliser les fonctions d'inputs clavier de GLFW depuis n'importe quel endroit du code et d'une façon simplifiée, avec une utilisation inspirée de Unity. 
 
-## Variables
+## Sommaire
+
+- [Variables](#variables-1)  
+- [Fonctions](#fonctions-1)  
+
+
+## <h2 id="Variables">Variables</h2>
 **`InputSystem::Keyboard`**  
 - `static std::map<std::string, int> keybinds`: stocke les noms et les inputs liés de tous les inputs du clavier.  
 - `static std::map<std::string, std::pair<int, int>> axes`: stocke les noms et les inputs liés de tous les axes du clavier.  
@@ -12,7 +18,7 @@ L'Input System (`Game/InputSystem.h`) permet d'utiliser les fonctions d'inputs c
 **`InputSystem::Mouse`**  
 - `static int mouseButtons[9]`: stocke les 8 macros définissant les 8 boutons de souris gérés par ce dernier. Permet de compter les boutons de 1 a 8 plutot que de 0 a 7.  
 
-## Fonctions
+## <h2 id="Fonctions">Fonctions</h2>
 Toutes les fontions sont dans le namespace `InputSystem`.  
 **Système**  
 - [`void SetWindow`](#setwindow-1)  
