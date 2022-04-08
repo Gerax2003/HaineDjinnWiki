@@ -11,6 +11,13 @@ Le header `Time.h` (`Core/Time.h`) permet de récupérer des informations sur le
 - [Fonctions](#fonctions-1)  
 
 ## <h2 id="Classes">Classes</h2>
+
+- [`class Timer`](#timer-1)  
+- [`struct Stopwatch`](#stopwatch-1)  
+
+---
+
+### <h3 id="Timer">Timer</h3>
 ```c++
 class Timer
 {
@@ -28,7 +35,7 @@ private:
 	bool isLooping = false;
 };
 ```
-La classe `Timer` permet d'effectuer des comptes a rebours ou de chronomètrer des durées.  
+La classe `Timer` permet d'effectuer des comptes a rebours.  
 
 **Variables**  
 - `public: bool hasEnded = false`: Devient `true` si le compte a rebours est terminé. Si `isLooping` est égal a `true`, `hasEnded` sera égal a `true` uniquement pendant la frame ou le timer s'est fini, puis il repassera a `false`.  
@@ -45,6 +52,24 @@ La classe `Timer` permet d'effectuer des comptes a rebours ou de chronomètrer d
 - `public: void Update()`: permet d'update les valeurs du timer. Doit être appelé une seule fois par frame.  
 
 - `public: void Restart(float duration = 0.f, bool looping = false)`: Permet de relancer le timer avec de nouvelles valeurs. `duration` représente la durée du timer, `looping` définit si le timer doit se répéter après s'être terminé.  
+
+---
+### <h3 id="Stopwatch">Stopwatch</h3>
+```c++
+struct Stopwatch
+{
+	Stopwatch() {};
+
+	void Update() { time += Time::DeltaTime(); };
+
+	float time = 0.f;
+};
+```
+La structure `Stopwatch` permet de chronométrer une durée.  
+
+- `void Update()`: permet de mettre a jour le chronomètre. Doit être appelé une seule fois par frame.  
+
+- `float time = 0.f`: durée écoulée depuis le lancement du chronomètre.  
 
 ## <h2 id="Variables">Variables</h2>
 **`namespace Time`**  
