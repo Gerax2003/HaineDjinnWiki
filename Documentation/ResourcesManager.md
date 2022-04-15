@@ -55,16 +55,12 @@ These `std::deque` are used to store resources and can only be accessed through 
 
 Looks for a resource with the path `filePath` in the deque corresponding to `type`.  
 
----
-
 ## <h3 id="BindResource">BindResource</h3>
 ```c++
 	void BindResource(int index, const ResourceType type, bool bindDefault = false);
 ```
 
 Binds the resource in the deque corresponding to `type` at a given `index`. If `bindDefault` is true, binds OpenGL's default.  
-
----
 
 ## <h3 id="CheckResourcesState">CheckResourcesState</h3>
 ```c++
@@ -73,16 +69,12 @@ Binds the resource in the deque corresponding to `type` at a given `index`. If `
 
 Checks in the deque corresponding to `type` if the resources stored are initialized in OpenGL and initializes them if not initialized.  
 
----
-
 ## <h3 id="ResetResources">ResetResources</h3>
 ```c++
 	void ResetResources();
 ```
 
 Clears all resources deques as well as resources to load.  
-
----
 
 ## <h3 id="EraseQueue">EraseQueue</h3>
 ```c++
@@ -91,8 +83,6 @@ Clears all resources deques as well as resources to load.
 
 Clears the resources waiting to be loaded.  
 
----
-
 ## <h3 id="CleanQueue">CleanQueue</h3>
 ```c++
 	void CleanQueue();
@@ -100,16 +90,12 @@ Clears the resources waiting to be loaded.
 
 Clears the resources already loaded still in the loading queue.  
 
----
-
 ## <h3 id="AddToLoad">AddToLoad</h3>
 ```c++
 	void* AddToLoad(const std::string filePath, const ResourceType type);
 ```
 
 Adds to the loading queue a resource located at `filePath` of type `type`. Returns a `void*`, needs to be casted as a `std::shared_ptr<TypeClass>`.  
-
----
 
 ---
 
