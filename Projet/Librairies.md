@@ -30,4 +30,4 @@ Physique: PhysX, JoltPhysics, qu3e, ReactPhysics3D
    - PhysX: bien que très complète, documentée et utilisée, trop difficile a intégrer et utiliser pour le peu de temps restant au moment de l'intégration surtout vu le niveau de détail physique qui nous est nécessaire pour le jeu.  
    - JoltPhysics: très complète et orientée multithreading et fiable puisque utilisée pour Horizon Forbidden West et semble plus simple que PhysX, cependant toujours trop pour notre projet.  
    - qu3e: librairie facile d'utilisation et d'intégration mais ne peut faire que de la simulation de cubes.  
-   - **ReactPhysics3D**: librairie assez complète et facile d'accès, multi plateformes et bien documentée, et offre des collisions entre assez de primitives pour notre projet.  
+   - **ReactPhysics3D**: librairie assez complète et facile a intégrer, multi plateformes et bien documentée, et offre des collisions entre assez de primitives pour notre projet.  
