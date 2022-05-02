@@ -11,6 +11,7 @@ L'idée principale du jeu est de faire un Diablo-like. L'une des spécificité d
 [Norme du code](Projet/Norme)  
 
 ## Documentation
+[Component](Documentation/Component)  
 [InputSystem](Documentation/InputSystem)  
 [Time](Documentation/Time)  
 [Debug](Documentation/Debug)  
