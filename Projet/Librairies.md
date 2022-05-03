@@ -14,7 +14,7 @@ Editor: ImGUI, FLTK(Fast Light Tool Kit), WxWidgets
    - **ImGUI**: une lib très connu et donc beaucoup de documentations et d’extensions, qui nous serons très utiles pour avoir une bonne UI dans le moteur. ImGUI intègre également un IO qui peut retourner le temps, le deltatime, les inputs basiques, etc… Ce qui est un gain de temps.  
 
 Sound: irrKlang, Superpowered Audio SDK, FMOD  
-   - irrKlang: La librairie s'adapte à un espace 2D comme 3D, elle sait lire de nombreux fichier audio (MP4, wav,...), elle est Cross-Plateforme, elle possède toutes les fonctionnalités connues des bibliothèques audio de bas niveau ainsi que de nombreuses fonctionnalités utiles comme un moteur de streaming sophistiqué, une lecture audio extensible, ...
+   - **irrKlang**: La librairie s'adapte à un espace 2D comme 3D, elle sait lire de nombreux fichier audio (MP4, wav,...), elle est Cross-Plateforme, elle possède toutes les fonctionnalités connues des bibliothèques audio de bas niveau ainsi que de nombreuses fonctionnalités utiles comme un moteur de streaming sophistiqué, une lecture audio extensible, ...
    - Superpowered: Est surtout utilisé pour les téléphones.
    - FMOD: Est une librairie où on peut modifier les sons. FMOD Core a subi des optimisations majeures dans le mixage, le rééchantillonnage, le décodage et le traitement des effets.  
   
