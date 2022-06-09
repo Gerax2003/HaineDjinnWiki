@@ -10,7 +10,7 @@ Au chargement de l’objet, on vérifie si l’objet en question possède oui ou
 
 - Renderer/include/Renderer/Animation.h  
    - Charge et stock les bones.  
--Renderer/include/Renderer/Animator.h  
+- Renderer/include/Renderer/Animator.h  
    - Update position bone/animation squelette.  
 
 ### Shader Animation:  
