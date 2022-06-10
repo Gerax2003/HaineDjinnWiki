@@ -1,2 +1,3 @@
 ## Physique
-La physique du moteur est réalisée à l'aide de la librairie ReactPhysics3D.
+La physique du moteur est réalisée à l'aide de la librairie ReactPhysics3D. J'ai choisi cette librairie car elle semblait plus simple à intégrer que PhysX sans pour autant manquer de fonctionnalités, notamment de par le fait que les objets propres à la librairie ont leur mémoire gérée en interne.
+[An example of the physics engine](!https://media.giphy.com/media/yFMIle1oOgyHNHyihb/giphy.gif)
