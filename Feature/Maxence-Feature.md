@@ -12,7 +12,7 @@ Au chargement de l’objet, on vérifie si l’objet en question possède oui ou
    - Charge et stock les bones.  
 - Renderer/include/Renderer/Animator.h  
    - Update position bone/animation squelette.  
-   - Animator est une classe qui stock un vecteur de 100 os basé sur le squelette du SkeletalMesh
+   - Animator est une classe qui stock un vecteur de 100 os basé sur le squelette du SkeletalMesh qui sera envoyé au Vertex Shader.
 
 ### Shader Animation:  
 
