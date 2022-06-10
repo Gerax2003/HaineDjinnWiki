@@ -1,8 +1,8 @@
-## Physique
-La physique du moteur est réalisée à l'aide de la librairie ReactPhysics3D. J'ai choisi cette librairie car elle semblait plus simple à intégrer que PhysX sans pour autant manquer de fonctionnalités, notamment de par le fait que les objets propres à la librairie ont leur mémoire gérée en interne.  
+## Intégration de la physique
+La physique du moteur est réalisée à l'aide de la librairie [ReactPhysics3D](https://www.reactphysics3d.com/). J'ai choisi cette librairie car elle semblait plus simple à intégrer que PhysX sans pour autant manquer de fonctionnalités, notamment de par le fait que les objets propres à la librairie ont leur mémoire gérée en interne.  
 
 ### PhysicsCommon et PhysicsWorld
-Ces objets sont tous les deux des pointeurs stockés dans la scène. `PhysicsCommon` est utilisé pour la création et destruction de tout objet provenant de React, et `PhysicsWorld` représente la scène physique. Ces pointeurs sont statiques car ils doivent donc être accessibles en tout temps, notamment pour la création des colliders et rigidbodies.  
+Ces objets sont tous les deux des pointeurs stockés dans la scène. `PhysicsCommon` est utilisé pour la création et destruction de tout objet provenant de React, et `PhysicsWorld` représente la scène physique, dont l'update est appelée juste avant les fixed updates des components. Ces pointeurs sont statiques car ils doivent donc être accessibles en tout temps, notamment pour la création des colliders et rigidbodies.  
 
 ### Rigidbody et colliders
 Le moteur implémente les colliders en forme de cube, sphère et capsule de React, ainsi que le Rigidbody. Ils héritent tous de la classe `Component` pour faciliter leur utilisation, et les colliders héritent de la classe `Collider` afin d'éviter les doublons de code et de faciliter l'ajout de nouveaux colliders. Ces classes servent de wrapper des classes de React afin de simplifier leur utilisation mais aussi pour permettre de les modifier dans ImGui comme les autres components. Enfin, les colliders ont besoin d'un rigidbody pour pouvoir être créés. React offre la possibilité de n'utiliser qu'un `CollisionBody` pour palier à ce problème, cependant j'ai jugé que l'intégration de cette classe n'allait pas être utile dans notre cas.  
