@@ -6,7 +6,7 @@
 Au chargement de l’objet, on vérifie si l’objet en question possède oui ou non des animations, c’est à ce moment qu’elles sont chargées. Dès que le component “animator” est sur l’objet vous allez pouvoir sélectionner l’animation que vous voulez. L’update de l’animation est calculé dans Animator::UpdateAnimation(double dt), appelé dans Renderer.cpp.</p>
 
 # Fichiers:
-### Principal stock et calcule:
+### Stockage et calcules:
 
 - Renderer/include/Renderer/Animation.h  
    - Charge et stock les bones.  
