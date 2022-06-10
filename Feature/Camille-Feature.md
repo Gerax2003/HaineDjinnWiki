@@ -1,4 +1,4 @@
-#LOAD et SAVE du XML
+# LOAD et SAVE du XML
 Présentation de feature
 
 Bonjour, le document suivant a pour objectif d’expliquer comment notre scène est sauvegardée, et comment elle est chargée. Feature présente dans les fichier Engine/GameDefinitions.cpp et .h
