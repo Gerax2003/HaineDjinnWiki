@@ -1,4 +1,4 @@
-[Accueil](Home)  
+[Accueil](Home.md)  
 
 ## Gameplay  
 Le jeu est un Hack'n'Slash. L'objectif est d'accomplir des missions et faire face à différents types de menace(spawner d'ennemis, Boss, pièges, ...). L'équipement du joueur peut être amélioré en combattant des ennemis, en lootant des objets dans des coffres, ...  
@@ -28,7 +28,7 @@ Le jeu est un Hack'n'Slash. L'objectif est d'accomplir des missions et faire fac
 - Sang qui coule si ennemis ou joueur touché.  
 - Les objets pouvant être récupéré seront scintillant.  
 - Les personnages auxquelles vous pouvez parler auront une Ora au dessus de leur tête.  
-- Les attaques en générales auront différents type d'effets visuel. (magie, attaque lourde, ...)  
+- Les attaques en générales auront différents type d'effets visuel. (magie, attaque lourde, ....md)  
 
 ## Score et Point de Compétences  
 Lorsque vous tuerez un ennemis celui-ci vous rapportera des points. Les points seront distribué aléatoirement dans un intervalle. Plus l'ennemis est facile a battre plus l'intervalle contiendra des chiffres faibles. Un multiplicateur pourra être mis en place. Celui-ci multipliera le minimum et le maximum de l'intervalle. Ces points serviront pour améliorer votre équipement et à monter votre arbre de compétence.
@@ -44,7 +44,7 @@ L'audio peut être important dans ce type de jeu, car il offre plus de réalisme
 - Les ennemis ont un idle de cris, de grognement.  
 
 ## Inspiration  
-- Diablo 3 (Blizzard Entertainement)  
+- Diablo 3 (Blizzard Entertainement.md)  
 ![](https://i.gifer.com/TOTE.gif)
-- TorchLight 3 (Echtra Games)  
+- TorchLight 3 (Echtra Games.md)  
 ![](https://thumbs.gfycat.com/SecondhandScaryKronosaurus-max-1mb.gif)

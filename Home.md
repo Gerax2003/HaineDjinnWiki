@@ -4,16 +4,16 @@ L'idée principale du jeu est de faire un Diablo-like. L'une des spécificité d
 
 # Sommaire 
 ## Projet en général
-[Concept du jeu](Projet/Game-Concept)  
-[Tâches](Projet/Taches)  
-[Challenges](Projet/Challenges)  
-[Librairies](Projet/Librairies)  
-[Norme du code](Projet/Norme)  
+[Concept du jeu](Projet/Game-Concept.md)  
+[Tâches](Projet/Taches.md)  
+[Challenges](Projet/Challenges.md)  
+[Librairies](Projet/Librairies.md)  
+[Norme du code](Projet/Norme.md)  
 
 ## Documentation
-[Component](Documentation/Component)  
-[InputSystem](Documentation/InputSystem)  
-[EventSystem](Documentation/Event-System)  
-[Time](Documentation/Time)  
-[Debug](Documentation/Debug)  
-[ResourcesManager](Documentation/ResourcesManager)  
+[Component](Documentation/Component.md)  
+[InputSystem](Documentation/InputSystem.md)  
+[EventSystem](Documentation/Event-System.md)  
+[Time](Documentation/Time.md)  
+[Debug](Documentation/Debug.md)  
+[ResourcesManager](Documentation/ResourcesManager.md)  

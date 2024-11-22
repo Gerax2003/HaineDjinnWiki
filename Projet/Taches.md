@@ -1,4 +1,4 @@
-[Accueil](Home)  
+[Accueil](Home.md)  
 
 - [ ] **Prototype**
     - [x] Unity
@@ -8,20 +8,20 @@
 - [ ] **Rendering/Engine**
    - [ ] OpenGL
       - [ ] Effets Graphiques
-         - [ ] Shadow | 4h
-         - [ ] PBR | 12h?
-         - [ ] Instanciation | 3h
-         - [x] PHONG | 1/2h
-   - [ ] Assets 3D | 3h?
-   - [ ] Mathématiques
-   - [ ] Resources Manager | 8h
-   - [ ] Scene Parser | 4h
-   - [x] Input System | 5h
+         - [ ] Shadow
+         - [ ] PBR
+         - [ ] Instanciation
+         - [x] PHONG
+   - [ ] Assets 3D
+   - [x] Mathématiques
+   - [ ] Resources Manager
+   - [x] Scene Parser
+   - [x] Input System
 - [ ] **Editor**
-   - [ ] Drag & Drop | 1/2h
-   - [ ] Sérialisation | 8h?
+   - [ ] Drag & Drop
+   - [x] Sérialisation
    - [ ] Interface Utilisateur
-      - [ ] Rendus dans des onglets IMGUI | 1h
-      - [ ] Hiérarchie de scène | 3h?
-      - [ ] Dialogue Editor | 4h
-      - [ ] Editeur d'objets | 8h? 
+      - [x] Rendus dans des onglets IMGUI
+      - [ ] Hiérarchie de scène
+      - [ ] Dialogue Editor
+      - [ ] Editeur d'objets 
