@@ -5,7 +5,7 @@ L'idée principale du jeu est de faire un Diablo-like. L'une des spécificité d
 # Sommaire 
 ## Projet en général
 [Concept du jeu](Projet/Game-Concept)  
-[Tâches](Projet/Tâches)  
+[Tâches](Projet/Taches)  
 [Challenges](Projet/Challenges)  
 [Librairies](Projet/Librairies)  
 [Norme du code](Projet/Norme)  
