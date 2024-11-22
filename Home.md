@@ -4,7 +4,7 @@ L'idée principale du jeu est de faire un Diablo-like. L'une des spécificité d
 
 # Sommaire 
 ## Projet en général
-[Concept du jeu](Projet/Game Concept)  
+[Concept du jeu](Projet/Game-Concept)  
 [Tâches](Projet/Tâches)  
 [Challenges](Projet/Challenges)  
 [Librairies](Projet/Librairies)  
@@ -13,7 +13,7 @@ L'idée principale du jeu est de faire un Diablo-like. L'une des spécificité d
 ## Documentation
 [Component](Documentation/Component)  
 [InputSystem](Documentation/InputSystem)  
-[EventSystem](Documentation/Event System)  
+[EventSystem](Documentation/Event-System)  
 [Time](Documentation/Time)  
 [Debug](Documentation/Debug)  
 [ResourcesManager](Documentation/ResourcesManager)  
